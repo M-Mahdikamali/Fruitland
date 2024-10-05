@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="315dp">
+
+    <TextView
+        android:id="@+id/title_slide"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/radius"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/view_cardview"
+        android:layout_width="375dp"
+        android:layout_height="174dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_slide">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:background="@drawable/color_sfv_page"  />
+
+        <RadioGroup
+            android:id="@+id/radioGrpup1"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="35dp">
+
+            <RadioButton
+                android:id="@+id/locationme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layoutDirection="rtl"
+                android:text="مکان خودم"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/otherlocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layoutDirection="rtl"
+                android:text="مکان دیگر"
+                android:textSize="20dp" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:hint="آدرس مورد نظر خود را در کادر زیر وارد کنید"
+            android:layoutDirection="rtl"
+            android:textColorHint="#BBBBBB"
+            android:textDirection="rtl" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/view_cardview1"
+        android:layout_width="375dp"
+        android:layout_height="174dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_slide">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/color_sfv_page"  />
+
+        <RadioGroup
+            android:id="@+id/radioGrpuptime"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="65dp">
+
+            <RadioButton
+                android:id="@+id/time1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layoutDirection="rtl"
+                android:text="8-10 صبح"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/time2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layoutDirection="rtl"
+                android:text="10-12 ظهر"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/time3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layoutDirection="rtl"
+                android:text="12-14 ظهر"
+                android:textSize="20dp" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/radioGrpuptime1"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="65dp">
+
+            <RadioButton
+                android:id="@+id/time4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layoutDirection="rtl"
+                android:text="14-16 بعد از ظهر"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/time5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layoutDirection="rtl"
+                android:text="16-18 بعد از ظهر"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/time6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layoutDirection="rtl"
+                android:text="18-20 بعد از ظهر"
+                android:textSize="20dp" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/radioGrpuptimeday1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="20dp"
+            android:layoutDirection="rtl"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/day1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layoutDirection="rtl"
+                android:text="امروز          "
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/day2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layoutDirection="rtl"
+                android:text="فردا          "
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/day3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layoutDirection="rtl"
+                android:text="پس فردا  "
+                android:textSize="20dp" />
+        </RadioGroup>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/view_cardview2"
+        android:layout_width="375dp"
+        android:layout_height="174dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_slide">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:background="@drawable/color_sfv_page"  />
+
+        <RadioGroup
+            android:id="@+id/radioGrpup3"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="35dp">
+
+            <RadioButton
+                android:id="@+id/vizhe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layoutDirection="rtl"
+                android:text="ارسال ویژه                   7000 تومان"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/adi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layoutDirection="rtl"
+                android:text="ارسال عادی                         رایگان"
+                android:textSize="20dp" />
+        </RadioGroup>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/view_cardview3"
+        android:layout_width="375dp"
+        android:layout_height="174dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_slide">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/color_sfv_page" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/bankmellat"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bank" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bank_mellat" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/banksaman"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="135dp"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bank" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bank_saman" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/bankmeli"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bank" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bank_meli" />
+        </android.support.v7.widget.CardView>
+    </android.support.v7.widget.CardView>
+
+    <ImageView
+        android:id="@+id/ind1"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        app:layout_constraintEnd_toStartOf="@+id/ind3"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginTop="190dp"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_slide"
+        app:srcCompat="@drawable/active_dot" />
+
+    <ImageView
+        android:id="@+id/ind2"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ind3"
+        app:layout_constraintEnd_toStartOf="@+id/ind4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ind3"
+        app:layout_constraintTop_toTopOf="@+id/ind3"
+        app:srcCompat="@drawable/active_dot" />
+
+    <ImageView
+        android:id="@+id/ind3"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ind1"
+        app:layout_constraintEnd_toStartOf="@+id/ind2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ind1"
+        app:layout_constraintTop_toTopOf="@+id/ind1"
+        app:srcCompat="@drawable/active_dot" />
+
+    <ImageView
+        android:id="@+id/ind4"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ind2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ind2"
+        app:layout_constraintTop_toTopOf="@+id/ind2"
+        app:srcCompat="@drawable/active_dot" />
+
+    <ImageView
+        android:id="@+id/back_slide"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ind3"
+        app:layout_constraintVertical_bias="0.059"
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:id="@+id/text_back"
+        android:layout_width="70dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="right"
+        android:text="صفحه قبلی"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/back_slide"
+        app:layout_constraintTop_toBottomOf="@+id/ind3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/next_slide"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ind3"
+        app:layout_constraintVertical_bias="0.059"
+        app:srcCompat="@drawable/next" />
+
+    <TextView
+        android:id="@+id/text_next"
+        android:layout_width="70dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="right"
+        android:text="صفحه بعدی"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/next_slide"
+        app:layout_constraintTop_toBottomOf="@+id/ind3"
+        app:layout_constraintVertical_bias="0.0"/>
+</android.support.constraint.ConstraintLayout>

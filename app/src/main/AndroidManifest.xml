@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="ir.kamali.fruitland">
+
+    <dist:module dist:instant="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".G"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".History"></activity>
+        <activity android:name=".Nextpagebasket" />
+        <activity android:name=".Select_the_value_discount" />
+        <activity android:name=".Select_the_value" />
+        <activity android:name=".Tarbar" />
+        <activity android:name=".Mive" />
+        <activity android:name=".Bottombar" />
+        <activity android:name=".Home" />
+        <activity android:name=".Basket">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MapActivity" />
+        <activity android:name=".User_InformationActivity" />
+        <activity android:name=".SU_VerificationActivity" />
+        <activity android:name=".SingupActivity" />
+        <activity android:name=".ChangePasswordActivity" />
+        <activity android:name=".FP_VerificationActivity" />
+        <activity android:name=".ForgetPassActivity" />
+        <activity android:name=".SinginActivity" />
+        <activity android:name=".SingActivity" />
+        <activity android:name=".WelActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
