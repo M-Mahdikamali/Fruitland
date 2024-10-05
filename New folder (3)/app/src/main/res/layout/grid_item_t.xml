@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp">
+    <android.support.v7.widget.CardView
+        android:id="@+id/exmive"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        app:cardBackgroundColor="#F2F4F4"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/mive_tarebar" />
+
+        <ImageView
+            android:id="@+id/exmive_image"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/exmive_text"
+            android:layout_width="110dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="80dp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="#859BA0" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="92dp"
+            android:layout_marginTop="115dp"
+            android:text="هرکیلوگرم"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/exmive_text1"
+            android:layout_width="57dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="115dp"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="115dp"
+            android:text="تومان"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+    </android.support.v7.widget.CardView>
+</LinearLayout>

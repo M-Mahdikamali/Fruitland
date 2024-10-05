@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">فروت لند</string>
+    <string name="text1_2">آسان خرید کنید</string>
+    <string name="text1_1">فروت لند</string>
+    <string name="text1_3">خرید میوه و سبزیجات به صورت آنلاین</string>
+    <string name="register">ثبت نام</string>
+    <string name="log_in">ورود</string>
+    <string name="textview">وارد کردن رمز یکبار مصرف</string>
+    <string name="textview2">لطفا رمز یکبار مصرف ارسال شده را وارد کنید </string>
+    <string name="textview4">را وارد کنید</string>
+    <string name="todo_page3_1">TODO</string>
+    <string name="Enter_fp_Phone">شماره تلفن همراه</string>
+    <string name="button_page3_Register">ثبت نام</string>
+    <string name="edittext_page4_phone">شماره تلفن همراه</string>
+    <string name="edittext_page4_password">رمز عبور</string>
+    <string name="button_page4_Login">ورود</string>
+    <string name="button_forget_pass">رمز عبور خود را فراموش کرده اید؟</string>
+    <string name="button_sendcode">ارسال کد</string>
+    <string name="textview5">وارد کردن رمز یکبار مصرف</string>
+    <string name="textview6">لطفا رمز یکبار مصرف ارسال شده به </string>
+    <string name="textview7">را وارد کنید</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="log_in_page4">ورود</string>
+    <string name="Send_page4">ارسال مجدد</string>
+    <string name="Opt_Out">انصراف</string>
+    <string name="EditText">کد ارسال شده را وارد کنید</string>
+    <string name="txet_page6_changepass">تغییر رمز عبور</string>
+    <string name="todo5">TODO</string>
+    <string name="text_page7_newpass">رمز عبور جدید</string>
+    <string name="text_page7_renewpass">تکرار رمز عبور جدید</string>
+    <string name="button_page7_Register">ثبت نام</string>
+    <string name="textedit_page9_pass">رمز عبور</string>
+    <string name="textedit_page9_re_pass">تکرار رمز عبور</string>
+    <string name="edittext_page9_first_name">نام</string>
+    <string name="edittext_page9_last_name">نام خانوادگی</string>
+    <string name="edittext_page9_Reagent_code">کد معرف*</string>
+    <string name="todo4">TODO</string>
+    <string name="text_page7_back">بازگشت</string>
+    <string name="Acsseslocation">آیا اجازه دسترسی به موقعیت را می دهید؟</string>
+    <string name="Enter_fp_Email">ایمیل</string>
+    <string name="Enter_singup_phone">شماره تلفن همراه</string>
+    <string name="user_Email">ایمیل*</string>
+    <string name="map_key" translatable="false"></string>
+    <string-array name="names">
+        <item>عالی</item>
+        <item>خوب</item>
+        <item>متوسط</item>
+    </string-array>
+</resources>
