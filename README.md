@@ -52,8 +52,8 @@ By leveraging a robust backend architecture and clean code practices, the app en
 
 👤 Contributors
 
-    Your Name
-    Another Contributor
+    @M-Mahdikamali
+    @Hadikamali
 
 📄 License
 
