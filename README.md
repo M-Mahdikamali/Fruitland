@@ -52,7 +52,7 @@ By leveraging a robust backend architecture and clean code practices, the app en
 
 1. Clone the repository using the following command:
    ```bash
-   git clone https://github.com/your-repo-url
+   git clone https://github.com/M-Mahdikamali/Fruitland.git
    ```
 2. Open the project in Android Studio.
 3. Build and run the app on your device or emulator.
