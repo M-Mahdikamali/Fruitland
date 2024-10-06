@@ -52,9 +52,8 @@ By leveraging a robust backend architecture and clean code practices, the app en
 
 👤 Contributors
 
-    @M-Mahdikamali
-    @Hadikamali
-
+    - [Mohammad Mahdi kamali](https://github.com/M-Mahdikamali)
+    - [Mohammad hadi kamali](https://github.com/hadikamali)
 📄 License
 
 This project is licensed under the MIT License.
