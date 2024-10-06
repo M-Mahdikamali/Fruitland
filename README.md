@@ -62,8 +62,8 @@ By leveraging a robust backend architecture and clean code practices, the app en
 
 ## 👤 Contributors
 
-- [Mohammad mahdi Kamali](https://github.com/M-Madikamali)  
-- [Mohammad hadi Kamali ](https://github.com/hadikamali)
+- [Mohammad mahdi Kamali](https://github.com/M-Mahdikamali)  
+- [Mohammad hadi Kamali ](https://github.com/Hadikamali)
 
 ---
 
